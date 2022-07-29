@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Projeto Hburger do Hcode Lab" />
+    <title>Cadastro - HBurguer</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/logo-favicon-blue.svg"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body id="auth" class="auth">
+    <header>
+      <a href="index.html">
+        <img
+          src="assets/images/logo-icon-blue.svg"
+          alt="Logo Icone"
+          id="logo-icon"
+        />
+        <img
+          src="assets/images/logo-text-blue.svg"
+          alt="Logo Texto"
+          id="logo-text"
+        />
+      </a>
+    </header>
+
+    <main id="register">
+      <ul id="form-tabs">
+        <li><a href="login.html">Login</a></li>
+        <li class="active"><a href="register.html">Cadastro</a></li>
+      </ul>
+
+      <form id="form-register">
+        <div>
+          <input type="text" name="name" placeholder="Nome" required />
+          <input type="email" name="email" placeholder="E-mail" required />
+          <input type="password" name="password" placeholder="Senha" required />
+        </div>
+        <div>
+          <span></span>
+        </div>
+
+        <footer>
+          <button type="submit">Enviar</button>
+        </footer>
+      </form>
+    </main>
+
+    <script src="bundle.js"></script>
+  </body>
+</html>
